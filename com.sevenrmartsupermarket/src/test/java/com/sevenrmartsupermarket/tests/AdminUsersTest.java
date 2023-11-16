@@ -24,6 +24,7 @@ public class AdminUsersTest extends Base {
 		String password=excelReader.getCellData(1, 1);
 		String usertype=excelReader.getCellData(1, 2);
 		adminUsersPage.createAdminUsers(username,password,usertype);
+		
 	}
 	
 
